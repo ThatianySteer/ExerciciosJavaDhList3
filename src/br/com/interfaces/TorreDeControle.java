@@ -4,8 +4,8 @@ public class TorreDeControle {
 
 	private Voador voadores[];
 	
-	TorreDeControle(Voador listaDeVoadores[]){
-		this.voadores = listaDeVoadores;
+	TorreDeControle(Voador lista[]){
+		this.voadores = lista;
 	}
 	
 	public void voemTodos() {
